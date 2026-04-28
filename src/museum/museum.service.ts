@@ -56,8 +56,7 @@ export class MuseumService {
         total: count,
       };
     }
-
-    const museums = [
+const museums = [
       {
         name: 'Museo del Oro',
         city: 'Bogota',
@@ -77,7 +76,7 @@ export class MuseumService {
         foundedBefore: 2000,
       },
       {
-        name: 'Museo de Arte Moderno',
+        name: 'Museo de Arte Moderno de Bogota',
         city: 'Bogota',
         address: 'Calle 24 #6-00',
         foundedBefore: 1955,
@@ -87,72 +86,6 @@ export class MuseumService {
         city: 'Bogota',
         address: 'Calle 21 #4A-30',
         foundedBefore: 1922,
-      },
-      {
-        name: 'Museo de Antioquia',
-        city: 'Medellin',
-        address: 'Cra. 52 #52-43',
-        foundedBefore: 1881,
-      },
-      {
-        name: 'Museo El Castillo',
-        city: 'Medellin',
-        address: 'Calle 9 Sur #32-269',
-        foundedBefore: 1971,
-      },
-      {
-        name: 'Museo de Arte Moderno de Medellin',
-        city: 'Medellin',
-        address: 'Cra. 44 #19A-100',
-        foundedBefore: 1978,
-      },
-      {
-        name: 'Museo La Tertulia',
-        city: 'Cali',
-        address: 'Av. Colombia #5-105',
-        foundedBefore: 1956,
-      },
-      {
-        name: 'Museo Arqueologico La Merced',
-        city: 'Cali',
-        address: 'Cra. 4 #6-59',
-        foundedBefore: 1979,
-      },
-      {
-        name: 'Museo Rayo',
-        city: 'Roldanillo',
-        address: 'Calle 8 #8-53',
-        foundedBefore: 1981,
-      },
-      {
-        name: 'Museo del Caribe',
-        city: 'Barranquilla',
-        address: 'Calle 36 #46-66',
-        foundedBefore: 2009,
-      },
-      {
-        name: 'Museo Romantico',
-        city: 'Barranquilla',
-        address: 'Cra. 54 #59-199',
-        foundedBefore: 1983,
-      },
-      {
-        name: 'Museo Naval del Caribe',
-        city: 'Cartagena',
-        address: 'Calle San Juan de Dios #3-62',
-        foundedBefore: 1992,
-      },
-      {
-        name: 'Museo Historico de Cartagena',
-        city: 'Cartagena',
-        address: 'Plaza de Bolivar',
-        foundedBefore: 1924,
-      },
-      {
-        name: 'Museo Casa de la Memoria',
-        city: 'Medellin',
-        address: 'Calle 51 #36-66',
-        foundedBefore: 2006,
       },
       {
         name: 'Museo Colonial',
@@ -167,16 +100,82 @@ export class MuseumService {
         foundedBefore: 1968,
       },
       {
-        name: 'Museo Taminango',
-        city: 'Pasto',
-        address: 'Calle 13 #27-67',
-        foundedBefore: 1971,
+        name: 'Museo de la Independencia Casa del Florero',
+        city: 'Bogota',
+        address: 'Cra. 7 #11-28',
+        foundedBefore: 1960,
       },
       {
-        name: 'Museo Juan del Corral',
-        city: 'Santa Fe de Antioquia',
-        address: 'Calle 11 #9-77',
-        foundedBefore: 1960,
+        name: 'Museo Militar de Colombia',
+        city: 'Bogota',
+        address: 'Calle 10 #4-92',
+        foundedBefore: 1982,
+      },
+      {
+        name: 'Museo de Bogota',
+        city: 'Bogota',
+        address: 'Calle 10 #3-61',
+        foundedBefore: 2019,
+      },
+      {
+        name: 'Museo del Banco de la Republica',
+        city: 'Bogota',
+        address: 'Calle 11 #4-14',
+        foundedBefore: 1958,
+      },
+      {
+        name: 'Museo de Trajes Regionales',
+        city: 'Bogota',
+        address: 'Cra. 6 #10-93',
+        foundedBefore: 1974,
+      },
+      {
+        name: 'Museo de Arquitectura Leopoldo Rother',
+        city: 'Bogota',
+        address: 'Ciudad Universitaria',
+        foundedBefore: 1974,
+      },
+      {
+        name: 'Museo de Historia Natural UNAL',
+        city: 'Bogota',
+        address: 'Universidad Nacional',
+        foundedBefore: 1970,
+      },
+      {
+        name: 'Museo de Ciencias Maloka',
+        city: 'Bogota',
+        address: 'Cra. 68D #24A-51',
+        foundedBefore: 1998,
+      },
+      {
+        name: 'Museo del Vidrio',
+        city: 'Bogota',
+        address: 'Cra. 1 #6C-75',
+        foundedBefore: 1969,
+      },
+      {
+        name: 'Museo del Siglo XIX',
+        city: 'Bogota',
+        address: 'Calle 10 #8-95',
+        foundedBefore: 1950,
+      },
+      {
+        name: 'Museo de Arte Contemporaneo Minuto de Dios',
+        city: 'Bogota',
+        address: 'Cra. 74 #82A-81',
+        foundedBefore: 1966,
+      },
+      {
+        name: 'Museo de Arte Miguel Urrutia',
+        city: 'Bogota',
+        address: 'Calle 11 #4-21',
+        foundedBefore: 2004,
+      },
+      {
+        name: 'Museo de la Policia Nacional',
+        city: 'Bogota',
+        address: 'Calle 9 #9-27',
+        foundedBefore: 1990,
       },
     ];
 

@@ -1,4 +1,3 @@
-// src/museum/museum.module.ts
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { MuseumEntity } from './museum.entity';
